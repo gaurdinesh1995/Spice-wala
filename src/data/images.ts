@@ -1,0 +1,42 @@
+/** Real product photography — each SKU has its own verified photos */
+export const productImg = {
+  turmeric: '/images/products/turmeric-1.jpg',
+  turmericDetail: '/images/products/turmeric-2.jpg',
+  turmericAlt: '/images/products/turmeric-3.jpg',
+  chili: '/images/products/chili-1.jpg',
+  chiliDetail: '/images/products/chili-2.jpg',
+  chiliAlt: '/images/products/chili-3.jpg',
+  cardamom: '/images/products/cardamom-1.jpg',
+  cardamomDetail: '/images/products/cardamom-2.jpg',
+  saffron: '/images/products/saffron-1.jpg',
+  saffronDetail: '/images/products/saffron-2.jpg',
+  cumin: '/images/products/cumin-1.jpg',
+  cuminDetail: '/images/products/cumin-2.jpg',
+  coriander: '/images/products/coriander-1.jpg',
+  corianderDetail: '/images/products/coriander-2.jpg',
+  pepper: '/images/products/pepper-1.jpg',
+  pepperDetail: '/images/products/pepper-2.jpg',
+  cinnamon: '/images/products/cinnamon-1.jpg',
+  cinnamonDetail: '/images/products/cinnamon-2.jpg',
+  fenugreek: '/images/products/fenugreek-1.jpg',
+  fenugreekDetail: '/images/products/fenugreek-2.jpg',
+  mustard: '/images/products/mustard-1.jpg',
+  mustardDetail: '/images/products/mustard-2.jpg',
+  garam: '/images/products/garam-1.jpg',
+  garamDetail: '/images/products/garam-2.jpg',
+  chai: '/images/products/chai-1.jpg',
+  chaiDetail: '/images/products/chai-2.jpg',
+} as const
+
+/** Shared lifestyle / market shots for categories, blogs, gallery */
+export const spiceImg = {
+  turmericPour: productImg.turmericDetail,
+  turmericBowl: productImg.turmericAlt,
+  powders: productImg.chai,
+  assortment: productImg.cardamomDetail,
+  chili: productImg.chiliAlt,
+  flatlay: productImg.garamDetail,
+  spoons: productImg.corianderDetail,
+  bowl: productImg.turmeric,
+  market: productImg.garam,
+} as const
